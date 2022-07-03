@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    outline: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aqua;
+    width: 100%;
+}
+.card{
+    width:500px;
+    min-height: 700px;
+    background-color: lightcoral;
+    text-align: center;
+    overflow: scroll;
+    margin-top: 60px;
+    color:white;
+}
+h1{
+   margin-bottom: 15px; 
+   font-size: 3rem;
+}
+input{
+    font-size: 1.6rem;
+    padding: 5px;
+    
+
+}
+button{
+    background-color: blue;
+    color: white;
+    font-size: 1.6rem;
+    padding: 5px;
+    
+}
+
+.list-style{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 20px;
+    font-size: 25px;
+    transition: all .6s;
+    
+
+}
+.list-style:hover{
+    background-color: aqua;
+    color: red;
+}
+
+.bg-success{
+  background-color:green;
+  margin: 5px;  
+  padding: 4px;
+  border-radius: 2px;
+  color: white;
+  font-size: 20px;
+  width: 200px;
+}
+
+.bg-danger{
+    background-color:red;
+    margin: 5px;  
+    padding: 4px;
+    border-radius: 2px;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+  }
